@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Train Ticket Application - Home</title>
+<style>
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #e6e6e6);
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #ff8c00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  header li {
+    margin: 0 15px;
+  }
+
+  header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+
+  header li a:hover {
+    background-color: #ffa54c;
+  }
+
+  main {
+    padding-top: 60px; /* Adjust the padding to make room for the fixed header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 60px);
+  }
+
+  .content {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="regis.html">Registration</a></li>
+        <li><a href="sign.html">Sign-in</a></li>
+        <li><a href="authority_validate.html">Authority</a></li>
+        <li><a href="super_authority.html">Administrative</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+      <h1>Welcome to our website</h1>
+      <p>
+        Among all the transport systems of the country, Railways occupy the most important position as it carries nearly 80 per cent of total goods traffic and 70 per cent of the passenger traffic. Indian Railways had started its operation on April 16, 1853, with its first route of 22 miles (34 kms). But with the passage of time, the Indian Railway System has grown into such a big organization that it has become <b>Asia's largest</b> and <b>World's second largest</b> organization in terms of its route length.<br><br>
+
+        Total route length of Indian Railways which was 53,600 kms in 1950-51, gradually rose to 65,800 kms in 2013-2014 out of which only 21,600 kms of route length is electrified. Out of the total route length, Broad Gauge covers 48,186 kms, Meter Gauge covers 13,290 kms and Narrow Gauge covers 3,124 kms.
+      </p>
+    </div>
+    <div class="image-container">
+      <img src="railway.jpeg" alt="Train" height="300px" width="500px">
+    </div>
+  </main>
+</body>
+</html>

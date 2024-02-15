@@ -1,0 +1,131 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title>     
+Make a Navigation Bar  
+</Title>  
+<style type=text/css>   
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 0px;  
+background-size: cover;  
+font-family: sans-serif;  
+} 
+header {  
+background-color: orange;  
+position: fixed;
+overflow: hidden;
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 50px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: blue;  
+text-decoration: none;  
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+} 
+</style>   
+</Head>  
+<Body>   
+<header>  
+<nav>  
+<ul>  
+<li>  
+<a href="home.html"> Home </a>  
+</li>  
+<li>  
+<a href="regis.html"> Registation</a>  
+</li>  
+<li>  
+<a href="sign.html"> Sign-in </a>  
+</li>  
+<li> <a href="#">Authority </a>  
+</li>  
+<li>  
+<a href="super_authority.html"> Administive  </a>  
+</li>  
+</ul>  
+</nav>  
+</header>  
+<main>
+<center>
+<div style="form">
+
+<p>Add Train Information</p>
+<form action=admin method=get>
+Train_id<input type=text name=id><font color=red>*</font><br><br>
+From Station<input type=text name=st><font color=red>*</font><br><br>
+path<input type=text name=path><font color=red>*</font><br><br>
+Destination<input type=text name=ds><font color=red>*</font><br><br>
+Time<input type=text name=time><font color=red>*</font><br><br>
+Km<input type=text name=km><font color=red>*</font><br><br>
+<input type=submit value=submit>
+
+</div>
+</main>
+</Body>   
+</Html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Bar and Form</title>
+  <style type="text/css">
+    body {
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #ff8c00;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    main {
+      padding: 80px 0 20px;
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    input[type="submit"] {
+      background-color: #ff8c00;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="regis.html">Registration</a>
+      <a href="sign.html">Sign-in</a>
+    </nav>
+  </header>
+  <main>
+    <div class="form-container">
+      <form action="show" method="get">
+        <p>To print your ticket click the print button</p>
+        <input type="submit" value="Print">
+      </form>
+    </div>
+  </main>
+</body>
+</html>

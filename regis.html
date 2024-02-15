@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Train Ticket Application - Registration</title>
+<style>
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #e6e6e6);
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #ff8c00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  header li {
+    margin: 0 15px;
+  }
+
+  header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+
+  header li a:hover {
+    background-color: #ffa54c;
+  }
+
+  main {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .form p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .form input[type="text"],
+  .form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .form input[type="submit"] {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .form input[type="submit"]:hover {
+    background-color: #ffa54c;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Registration</a></li>
+        <li><a href="sign.html">Sign-in</a></li>
+        <li><a href="authority_validate.html">Authority</a></li>
+        <li><a href="super_authority.html">Administrative</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="form">
+      <form action="regis1" method="get">
+        <p>Registration form</p>
+        <label>Name</label>
+        <input type="text" name="nm" required placeholder="Sayan Adhikary">
+        <label>Password</label>
+        <input type="password" name="pass" required placeholder="alexa123">
+        <label>Email</label>
+        <input type="text" name="email" placeholder="sayanadhikary289@gmail.com">
+        <label>Phone number</label>
+        <input type="text" name="ph" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
+</body>
+</html>
